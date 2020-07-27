@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // log.info 'Starting' 
                 script { 
-                    dockerBuild 'Build the sample Dockerfile"
+                    dockerBuild 'Build the sample Dockerfile
                 }
             }
         }
