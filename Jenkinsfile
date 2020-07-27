@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // log.info 'Starting' 
                 script { 
-                    sayHello 'dockerBuild'
+                    dockerBuild 'Build the sample Dockerfile"
                 }
             }
         }
