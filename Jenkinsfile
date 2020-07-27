@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // log.info 'Starting' 
                 script { 
-                    sayHello 'Anurag'
+                    sayHello 'Hello'
                 }
             }
         }
